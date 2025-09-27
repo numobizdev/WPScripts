@@ -88,210 +88,210 @@ if (await countMatchingNumberedFieldsInclude("DentalPlans#PlanName", "PPO") >=1)
 	DentalPPO2.value = await getValueNumberedFielMatches("MedPlans#PlanName", "PPO", 2);
 }
 
-//Medical plans
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48307")){
-	this.getField("PlanLegacyPK1").value = "Yes"
+//Medical plans Choice Simplified
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48307")){
+	this.getField("PlanLegacyPKCS1").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48308")){
-	this.getField("PlanLegacyPK2").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48308")){
+	this.getField("PlanLegacyPKCS2").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48311")){
-	this.getField("PlanLegacyPK3").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48311")){
+	this.getField("PlanLegacyPKCS3").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48318")){
-	this.getField("PlanLegacyPK4").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48318")){
+	this.getField("PlanLegacyPKCS4").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48280")){
-	this.getField("PlanLegacyPK5").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48280")){
+	this.getField("PlanLegacyPKCS5").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48281")){
-	this.getField("PlanLegacyPK6").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48281")){
+	this.getField("PlanLegacyPKCS6").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48284")){
-	this.getField("PlanLegacyPK7").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48284")){
+	this.getField("PlanLegacyPKCS7").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48290")){
-	this.getField("PlanLegacyPK8").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48290")){
+	this.getField("PlanLegacyPKCS8").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48310")){
-	this.getField("PlanLegacyPK9").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48310")){
+	this.getField("PlanLegacyPKCS9").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48312")){
-	this.getField("PlanLegacyPK10").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48312")){
+	this.getField("PlanLegacyPKCS10").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48306")){
-	this.getField("PlanLegacyPK11").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48306")){
+	this.getField("PlanLegacyPKCS11").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48315")){
-	this.getField("PlanLegacyPK12").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48315")){
+	this.getField("PlanLegacyPKCS12").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48283")){
-	this.getField("PlanLegacyPK13").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48283")){
+	this.getField("PlanLegacyPKCS13").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48285")){
-	this.getField("PlanLegacyPK14").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48285")){
+	this.getField("PlanLegacyPKCS14").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48274")){
-    this.getField("PlanLegacyPK15").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48274")){
+    this.getField("PlanLegacyPKCS15").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48275")){
-	this.getField("PlanLegacyPK16").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48275")){
+	this.getField("PlanLegacyPKCS16").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48313")){
-	this.getField("PlanLegacyPK17").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48313")){
+	this.getField("PlanLegacyPKCS17").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48314")){
-	this.getField("PlanLegacyPK18").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48314")){
+	this.getField("PlanLegacyPKCS18").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48316")){
-	this.getField("PlanLegacyPK19").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48316")){
+	this.getField("PlanLegacyPKCS19").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48319")){
-	this.getField("PlanLegacyPK20").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48319")){
+	this.getField("PlanLegacyPKCS20").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48286")){
-	this.getField("PlanLegacyPK21").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48286")){
+	this.getField("PlanLegacyPKCS21").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48287")){
-	this.getField("PlanLegacyPK22").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48287")){
+	this.getField("PlanLegacyPKCS22").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48288")){
-	this.getField("PlanLegacyPK23").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48288")){
+	this.getField("PlanLegacyPKCS23").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48291")){
-	this.getField("PlanLegacyPK24").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48291")){
+	this.getField("PlanLegacyPKCS24").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48305")){
-	this.getField("PlanLegacyPK25").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48305")){
+	this.getField("PlanLegacyPKCS25").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48309")){
-	this.getField("PlanLegacyPK26").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48309")){
+	this.getField("PlanLegacyPKCS26").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48317")){
-	            this.getField("PlanLegacyPK27").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48317")){
+	this.getField("PlanLegacyPKCS27").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48282")){
-	this.getField("PlanLegacyPK28").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48282")){
+	this.getField("PlanLegacyPKCS28").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48289")){
-	this.getField("PlanLegacyPK29").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48289")){
+	this.getField("PlanLegacyPKCS29").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48324")){
-	this.getField("PlanLegacyPK30").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48324")){
+	this.getField("PlanLegacyPKCS30").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48320")){
-	this.getField("PlanLegacyPK31").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48320")){
+	this.getField("PlanLegacyPKCS31").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48321")){
-	this.getField("PlanLegacyPK32").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48321")){
+	this.getField("PlanLegacyPKCS32").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48270")){
-	this.getField("PlanLegacyPK33").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48270")){
+	this.getField("PlanLegacyPKCS33").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48266")){
-	this.getField("PlanLegacyPK34").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48266")){
+	this.getField("PlanLegacyPKCS34").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48265")){
-	this.getField("PlanLegacyPK35").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48265")){
+	this.getField("PlanLegacyPKCS35").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48293")){
-	this.getField("PlanLegacyPK36").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48293")){
+	this.getField("PlanLegacyPKCS36").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48294")){
-	this.getField("PlanLegacyPK37").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48294")){
+	this.getField("PlanLegacyPKCS37").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48292")){
-	this.getField("PlanLegacyPK38").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48292")){
+	this.getField("PlanLegacyPKCS38").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48325")){
-	    this.getField("PlanLegacyPK39").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48325")){
+	    this.getField("PlanLegacyPKCS39").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48322")){
-	this.getField("PlanLegacyPK40").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48322")){
+	this.getField("PlanLegacyPKCS40").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48323")){
-	this.getField("PlanLegacyPK41").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48323")){
+	this.getField("PlanLegacyPKCS41").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48326")){
-	this.getField("PlanLegacyPK42").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48326")){
+	this.getField("PlanLegacyPKCS42").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48271")){
-	this.getField("PlanLegacyPK43").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48271")){
+	this.getField("PlanLegacyPKCS43").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48267")){
-	this.getField("PlanLegacyPK44").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48267")){
+	this.getField("PlanLegacyPKCS44").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48268")){
-	this.getField("PlanLegacyPK45").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48268")){
+	this.getField("PlanLegacyPKCS45").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48272")){
-	this.getField("PlanLegacyPK46").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48272")){
+	this.getField("PlanLegacyPKCS46").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48297")){
-	this.getField("PlanLegacyPK47").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48297")){
+	this.getField("PlanLegacyPKCS47").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48295")){
-	    this.getField("PlanLegacyPK48").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48295")){
+	    this.getField("PlanLegacyPKCS48").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48296")){
-	this.getField("PlanLegacyPK49").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48296")){
+	this.getField("PlanLegacyPKCS49").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48298")){
-	this.getField("PlanLegacyPK50").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48298")){
+	this.getField("PlanLegacyPKCS50").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48327")){
-	this.getField("PlanLegacyPK51").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48327")){
+	this.getField("PlanLegacyPKCS51").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48273")){
-	this.getField("PlanLegacyPK52").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48273")){
+	this.getField("PlanLegacyPKCS52").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48299")){
-	this.getField("PlanLegacyPK53").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48299")){
+	this.getField("PlanLegacyPKCS53").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48300")){
-	this.getField("PlanLegacyPK54").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48300")){
+	this.getField("PlanLegacyPKCS54").value = "Yes"
 }
 
 //Medical Plans Multi-Choice
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48278")){
-	this.getField("PlanLegacyPKMC55").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48278")){
+	this.getField("PlanLegacyPKMC1").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48301")){
-	this.getField("PlanLegacyPKMC56").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48301")){
+	this.getField("PlanLegacyPKMC2").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48277")){
-	this.getField("PlanLegacyPKMC57").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48277")){
+	this.getField("PlanLegacyPKMC3").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48302")){
-	this.getField("PlanLegacyPKMC58").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48302")){
+	this.getField("PlanLegacyPKMC4").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48276")){
-	this.getField("PlanLegacyPKMC59").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48276")){
+	this.getField("PlanLegacyPKMC5").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48303")){
-	this.getField("PlanLegacyPKMC60").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48303")){
+	this.getField("PlanLegacyPKMC6").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "42622")){
-	this.getField("PlanLegacyPKMC61").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "42622")){
+	this.getField("PlanLegacyPKMC7").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48279")){
-	this.getField("PlanLegacyPKMC62").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48279")){
+	this.getField("PlanLegacyPKMC8").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48304")){
-	this.getField("PlanLegacyPKMC63").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48304")){
+	this.getField("PlanLegacyPKMC9").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48263")){
-	this.getField("PlanLegacyPKMC64").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48263")){
+	this.getField("PlanLegacyPKMC10").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48264")){
-	this.getField("PlanLegacyPKMC65").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48264")){
+	this.getField("PlanLegacyPKMC11").value = "Yes"
 }
-if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPK", "48269")){
-	this.getField("PlanLegacyPKMC66").value = "Yes"
+if (await checkAnyNumberedFieldMatches("MedPlans#PlanLegacyPk", "48269")){
+	this.getField("PlanLegacyPKMC12").value = "Yes"
 }
 
 //Validate if All Plans checkbox is checked
-if(await checkAllNumberedFieldsMatch("PlanLegacyPK#", "Yes")) {
+if(await checkAllNumberedFieldsMatch("PlanLegacyPKCS#", "Yes")) {
     this.getField("AllPlansCheck").value = "true";
  }
 //Validate if All Plans Multi-Choice checkbox is checked
